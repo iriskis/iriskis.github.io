@@ -1,0 +1,76 @@
+.example
+{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.axis
+{
+    position: relative;
+    top: calc(100vh - 350px);
+    width: 875px;
+    margin: 0 calc((100vw - 875px)/2);
+}
+
+.arrow__term
+{
+    visibility: hidden;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    bottom: -23px;
+}
+
+.arrow__term-1
+{   
+    padding-left: 35px;
+}
+
+.arrow-1
+{
+    width: 273px;
+}
+
+.arrow-2
+{
+    width: 39px;
+}
+
+.in_term
+{
+    width: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.example__part
+{
+    border-radius: 5px; 
+    padding: 0 3px;
+}
+
+.new_example
+{
+    position: relative;
+    top: 30vh;
+    font-size : 30px;
+    background : rgb(143, 255, 143);
+    margin: 0 calc((100vw - 220px)/2);
+    border-radius : 10px;
+    visibility: hidden;
+}
+
+.new_example:focus,
+input:focus
+{
+    outline: none;
+}
+
+input
+{
+    font-size: 20px;
+    border: 1px gray solid;
+    border-radius: 5px; 
+}
